@@ -67,3 +67,44 @@
     });
   });
 </script>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "LocalBusiness",
+  "name" : "Eduprov Educational institute",
+  "image" : "images/logo.png",
+    "telephone" : "+918025591146",
+  "email" : " admin@eduprov.com",
+  "address" : {
+    "@type" : "PostalAddress",
+    "addressCountry" : "Bangalore"
+  },
+  "url" : "https://eduprov.com/",
+"sameAs" : [
+	" https://twitter.com/eduprov",
+	" https://www.facebook.com/eduprovinstitute/",
+	" https://www.linkedin.com/in/eduprov-educational-institute-ab2b24115/",
+	" https://www.youtube.com/channel/UCpQxHyt7KwUzpUhM6E_dyNw", 
+	" https://twitter.com/eduprov"
+	],
+
+  "aggregateRating" : {
+    "@type" : "AggregateRating",
+    "ratingValue" : "4.8",
+    "bestRating" : "4.8",
+       "ratingCount" : "160"
+  },
+  "review" : {
+    "@type" : "Review",
+    "author" : {
+      "@type" : "Person",
+      "name" : "160"
+    },
+    "reviewRating" : {
+      "@type" : "Rating",
+"ratingValue":"4.8"
+}
+  }
+}
+</script>
